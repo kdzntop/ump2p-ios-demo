@@ -22,12 +22,12 @@ UMP2PApiClientLaunch->opts：
     account：是否使用UM平台账号系统，如果设置为false，启动demo直接进入播放界面，直接使用UMID进行播放
     push：是否使用推送功能，如果使用，需要配置UMP2PPushLaunch模块
 
-UMP2PPushLaunch->opts
-    appId：第三方推送平台appId
-    appKey：第三方推送平台appKey
-    appSecret：第三方推送平台appSecret
+UMP2PPushLaunch->opts 
+    appId：第三方推送平台appId(废弃)
+    appKey：第三方推送平台appKey(废弃)
+    appSecret：第三方推送平台appSecret(废弃)
 
-当前Demo对接的第三方推送平台为个推推送
+当前Demo由服务端直连APNs推送
 
 ```
 

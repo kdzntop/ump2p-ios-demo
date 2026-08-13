@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit','UserNotifications'
   s.xcconfig = {    'OTHER_LDFLAGS' => '-ObjC'}
   
-  s.dependency 'GTSDK','2.6.1.0'
+#  s.dependency 'GTSDK','2.6.1.0'
   s.dependency 'UMAccount'
   
 end
